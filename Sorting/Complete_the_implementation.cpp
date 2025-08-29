@@ -28,7 +28,6 @@ void merge(vector<int> &arr, int left, int mid, int right){
             r++;
         }
     }
-    
     while(l<a.size()){
         arr[i]=a[l];
         i++;
@@ -48,7 +47,6 @@ void mergeSort(vector<int>& arr, int left, int right) {
         mergeSort(arr,mid+1,right);
         merge(arr,left,mid,right);
     }
-    
 }
 
 /*
